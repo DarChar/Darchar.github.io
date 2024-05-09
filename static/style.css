@@ -1,0 +1,218 @@
+
+
+
+
+
+/*This is the main pages for CSS related Elements*/
+.navbar-brand{
+  margin-left:30px;
+}
+#navbarTogglerDemo03{
+  margin-left: 20px;
+}
+/*Landing Page*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+    height: auto;
+    overflow-x: hidden;
+}
+
+footer {
+    margin-top: auto;
+}
+.navbar a {
+    font-family: 'Trebuchet MS';
+  }
+
+.crow{
+  margin-top: 180px;
+  margin-bottom:200px;
+}
+.crow h1{
+  font-size: 60px;
+}
+.crow h3{
+  font-size: 40px;
+}
+/*About Page */
+
+#navabout{
+  background-color: rgba(0, 0, 0, 0.8); /* Set the desired opacity value (0.8 in this example) */
+}
+#colorcol{
+  background-color: rgba(0, 0, 0, 0.7);; /* Choose your desired background color */
+  padding: 60px; /* Adjust padding as needed */
+}
+.custom-row {
+  background-image: url('/static/test2.png');
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+  color: #ffffff; /* Set text color for better contrast */
+  padding: 0px; /* Adjust as needed for spacing inside the row */
+
+  padding-bottom:100px;
+  border-bottom: 20px solid #000000; /* Adjust the color and thickness as needed */
+
+}
+.col3{
+  margin-left: 300px;
+}
+.cardstyle2{
+  background-color: rgba(0, 0, 0, 0.3); /* Red color with 50% opacity */
+  border: 2px solid #ffffff; /* Set the border color and width */
+  border-radius: 10px;
+  margin-right: 80px;
+}
+.cardstyle{
+  background-color: rgba(0, 0, 0, 0.3); /* Red color with 50% opacity */
+  border: 2px solid #ffffff; /* Set the border color and width */
+  border-radius: 10px;
+  margin-right: 50px;
+}
+.leftstyle{
+  margin-left: -100px;
+}
+.rightstyle{
+  margin-left: 950px;
+}
+.rightstyle2{
+  margin-left: 400px;
+}
+.centerstyle{
+  margin-left: 380px;
+}
+
+.cardformat
+{
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Red color with 50% opacity */
+  border: 2px solid #ffffff; /* Set the border color and width */
+  border-radius: 10px;
+  margin-left: 50px;
+
+}
+.custom-row2 {
+ 
+  background-image: url('/static/test2.png');
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+  color: #ffffff; /* Set text color for better contrast */
+  padding-left: 200px;
+  padding-bottom: 200px;
+  height: auto;
+
+}
+#selectiontab{
+  height: 28vh;
+}
+#select{
+  margin-left: 400px;
+}
+#row1 {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+#row1.fade-in {
+  opacity: 1;
+}
+#selection-Tabcontent{
+  margin-left: 200px;
+  margin-top: 50px;
+}
+#row2 {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+  
+}
+#row2.fade-in {
+  opacity: 1;
+}
+#language{
+  margin-left: 300px;
+}
+#test{
+  background-color: rgba(238, 238, 238, 0.7); /* Red color with 50% opacity */
+  border-radius: 15,15,15,15;
+}
+/*Contact Me*/
+#row {
+
+    margin-bottom: 100px; /* Set the margin between rows */
+  }
+
+
+  #navi{
+    
+    border-bottom: 10px solid #00ddff;
+    box-shadow: 0 2px 0 rgb(9, 32, 49) inset; /* Additional bottom border style and color */
+  }
+  #contentbox{
+
+      top: 0;
+      left: 10px; /* Adjust the left position as needed */
+      font-size: 14px; /* Adjust the font size as needed */
+  }
+  input{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+  }
+  .navbar a {
+    font-family: 'Trebuchet MS';
+  }
+  h1{
+    margin-top: 20px;
+    font-family:  'Lucida Grande', monospace;
+  }
+  h6{
+    margin-top: 20px;
+    font-family:  'Lucida Grande', monospace;
+  }
+  #content{
+    margin-top: 50px;
+    margin-left: 150px;
+    
+  }
+  #submit{
+    margin-top: 50px;
+    margin-left: 300px;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgba(70, 81, 130, 0.5); /* Red color with 50% opacity */
+    color: #000000;
+}
+
+.card {
+  width: 700px;
+  height: 600px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-inner {
+  width: inherit;
+  height: inherit;
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.navbar-custom{
+
+  background-color: rgb(9, 32, 49);
+}
+
+
+
